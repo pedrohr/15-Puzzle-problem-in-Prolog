@@ -1,17 +1,17 @@
 solucao([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,0]).
 
 inicializar :-
-	consult('insertOpenList.pl'),
-	consult('makeNodes.pl'),
-	consult('heuristicas.pl'),
-	consult('estados.pl'),
-	consult('astar.pl'),
-	consult('best.pl'),
-	consult('breadth.pl'),
-	consult('prof.pl'),
-	consult('ida.pl'),
-	consult('beam.pl'),
-	consult('hillclimb.pl').
+	consult('insertOpenList.pro'),
+	consult('makeNodes.pro'),
+	consult('heuristicas.pro'),
+	consult('estados.pro'),
+	consult('astar.pro'),
+	consult('best.pro'),
+	consult('breadth.pro'),
+	consult('prof.pro'),
+	consult('ida.pro'),
+	consult('beam.pro'),
+	consult('hillclimb.pro').
 
 testaGraficos(Passos) :-
 	inicializar,
